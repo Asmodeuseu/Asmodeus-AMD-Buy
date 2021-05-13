@@ -1,4 +1,4 @@
-function appendAddToCartButton() {
+function  appendAddToCartButton() {
     const productPage = document.getElementById("product-details-info");
     if (productPage == null) {
         const elements = Array.from(document.getElementsByClassName("view view-shop-product-search view-id-shop_product_search view-display-id-direct-buy-catalog")[0].getElementsByClassName("views-row"));
